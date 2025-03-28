@@ -1,0 +1,9 @@
+[package]
+name = "rastreador_syscalls"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libc = "0.2"   # Para interactuar con llamadas del sistema
+nix = "0.27"   # Para manejar ptrace y syscalls
+
